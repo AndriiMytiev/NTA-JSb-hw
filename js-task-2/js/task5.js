@@ -5,13 +5,13 @@ let greating = "welcome to our js community!";
 // console.log(`${userName}, ${greating}`);
 
 //my extension))
-if (Boolean(userName)){
+if (userName){
     console.log(`${userName}, ${greating}`);
 } else{
     let message = confirm(("You didn't enter your name. Do you want to try entering your name again?"));
     if (message){
         userName = prompt(("Ok, please enter you name again: "));
-        if (Boolean(userName)){
+        if (userName){
             console.log(`${userName}, ${greating}`);
         } else {
             alert("Ok, have a nice day!")
