@@ -8,5 +8,5 @@ while(input != null){
     } else{
         alert('Было введено не число, попробуйте еще раз');
     }
-}
-console.log(total);
+};
+alert(`Общая сумма чисел равна ${total}`);

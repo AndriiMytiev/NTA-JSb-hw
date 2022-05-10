@@ -1,5 +1,5 @@
 // import "./js/task7.js"
-import "./js/task8.js"
+// import "./js/task8.js"
 // import "./js/task9.js"
 // import "./js/task10.js"
 // import "./js/task11.js"
