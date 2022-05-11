@@ -12,4 +12,4 @@ if (amount == null){
     } else{
         console.log(`Вы купили ${amount} дроидов, на счету осталось ${credits-totalPrice} кредитов.`);
     }
-}
+};
