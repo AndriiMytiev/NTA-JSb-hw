@@ -16,4 +16,4 @@ switch(normalizeUserCountry){
     case countryArray[4].toLowerCase(): console.log(`Доставка в ${countryArray[4]} будет стоить ${priceArray[4]} кредитов.`);
     break;
     default: alert("В вашей стране доставка не доступна");
-} 
+};
