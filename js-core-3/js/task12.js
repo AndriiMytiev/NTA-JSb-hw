@@ -8,7 +8,7 @@ if (password == null){
 } else if(password == ADMIN_PASSWORD){
     message = 'Добро пожаловать!';
 } else {
-    message = 'Не верный пароль!';
+    message = 'Доступ запрещен, неверный пароль!';
 };
 
 alert(message);
