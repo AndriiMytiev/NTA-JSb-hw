@@ -4,9 +4,9 @@ const toGetSumAF = (num1 = 0, num2 = 0) => {
     if(isNaN(num1Parsed)){
         num1Parsed = 0;
     }
-     if (isNaN(num2Parsed)) {
+    if (isNaN(num2Parsed)) {
         num2Parsed = 0;
-     }
+    }
     return num1Parsed + num2Parsed;
 };
 
