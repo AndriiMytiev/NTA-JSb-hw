@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request-form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <article>
+        <form class="form" id="program-request">
+            <div class="row">
+                <div class="col-1">
+                    <label for="name">Full name</label>
+                    <br>
+                    <input type="text" id="name">
+                </div>
+                <div class="col-2">
+                    <label for="phone">Phone number</label>
+                    <br>
+                    <input type="text" id="phone">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1">
+                    <label for="address">Address</label>
+                    <br>
+                    <input type="text" id="address">
+                </div>
+                <div class="col-2">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1">
+                    <label for="serviceType">Requested service</label>
+                    <br>
+                    <input type="text" id="serviceType">
+                </div>
+                <div class="col-2">
+                    <label for="date">Day of service</label>
+                    <br>
+                    <input type="text" id="date">
+                </div>           
+            </div>
+            <br>
+            <label for="comment">Add note(not necessarily)</label>
+            <textarea id="comment" name="comment"></textarea>
+            <br>
+            <button id="submit">Submit message</button>
+        </form>
+    </article>
+    <script src="./index.js"></script>
+</body>
+</html>
