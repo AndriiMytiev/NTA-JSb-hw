@@ -19,7 +19,7 @@
                 <div class="col-2">
                     <label for="phone">Phone number</label>
                     <br>
-                    <input type="text" id="phone">
+                    <input type="tel" id="phone">
                 </div>
             </div>
             <br>
@@ -40,12 +40,18 @@
                 <div class="col-1">
                     <label for="serviceType">Requested service</label>
                     <br>
-                    <input type="text" id="serviceType">
+                    <select name="serviceType" id="serviceType">
+                        <option value="default" selected></option>
+                        <option value="house-cleaning">House cleaning</option>
+                        <option value="office-cleaning">Office cleaning</option>
+                        <option value="industrial-cleaning">Industrial cleaning</option>
+                      </select>
+                    <!-- <input type="text" id="serviceType"> -->
                 </div>
                 <div class="col-2">
                     <label for="date">Day of service</label>
                     <br>
-                    <input type="text" id="date">
+                    <input type="date" id="date">
                 </div>           
             </div>
             <br>
