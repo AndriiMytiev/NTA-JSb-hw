@@ -24,7 +24,6 @@ function createElement(data) { // отримуємо масив даних
         }).join(''); // повертаємо готову розмітку елементу разом з тегами
 }
 const list = createElement(data); // викликаємо функцію генерації розмітки
-console.log(list);
 ul.insertAdjacentHTML('afterbegin', list); // додаємо розмітку в DOM
 
 // for(let i = 0; i < data.length; i++){
