@@ -4,8 +4,16 @@ const {h1, h2, m1, m2, s1, s2, timeFormatBlock} = refs;
 let Format = 1;
 
 timeFormatBlock.addEventListener('click', (e) => {
-    [...timeFormatBlock.children].map(span => span.classList.toggle('active'));
-    e.target.id === '12hr' ? Format = 2 : Format = 1;
+    if(e.target.id == '24hr'){
+        Format = 1
+        document.getElementById('24hr').classList.add('active');
+        document.getElementById('12hr').classList.remove('active');
+    } 
+    if(e.target.id == '12hr'){
+        Format = 2
+        document.getElementById('12hr').classList.add('active');
+        document.getElementById('24hr').classList.remove('active');
+    }
 })
 
 function updateTimer(){
