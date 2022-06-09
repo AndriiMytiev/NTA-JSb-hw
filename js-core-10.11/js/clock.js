@@ -76,7 +76,6 @@ counterBtn.addEventListener('click', () => {
 
 // START --- PAUSE --- STOP
 startBtn.addEventListener('click', () => {
-    // swapStartPauseButtons('pause');
     StopChecker = 0;
     if(Format === 3){
         swapStartPauseButtons('pause');
