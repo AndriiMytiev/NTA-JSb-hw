@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url("https://assets.codepen.io/1462889/back-page.svg");
+    background-size: 101%;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.700);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+}
+
+.ifHidden {
+    display: none;
+}
+
+.content {
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.closeModalBtn {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #102770;
+    color: #ffeba7;
+    cursor: pointer; 
+}
+
+.openModalBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 240px;
+    font-size: 20px;    
+    border: none;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    background-color: #102770;
+    color: #ffeba7;
+}
+.active {
+    background-color: #ffeba7;
+    color: #102770;
+}
+.FC {
+    height: 30px;
+    width: auto;
+    display: block;
+    margin: 25px;
+}
+.brightness {
+    filter: brightness(10%);
+}
+
+.overlayImg {
+    position: absolute;
+    top: 0;
+}
+
+.overlayText {
+    position: absolute;
+    padding: 30px 30px 30px 30px;
+    bottom: 0;
+    font-size: 18px;
+}
